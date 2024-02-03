@@ -79,11 +79,11 @@ form {
     margin-bottom: 3.75em;
 }
 
-    .input-fields-container:after {
-        content: "";
-        display: block;
-        clear: both;
-    }
+.input-fields-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 .cc-input {
     max-width: 100%;
