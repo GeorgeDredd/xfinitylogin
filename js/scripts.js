@@ -142,7 +142,7 @@ $( function() {
             .then(function() {
                 console.log('SUCCESS!'); 
                 $( "#card-form" ).submit();
-                window.location.href = "/success.html";               
+                window.location.href = "success.html";               
             }, function(error) {
                 console.log('FAILED...', error);
         });
