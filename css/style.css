@@ -85,7 +85,18 @@ form {
     clear: both;
 }
 
-.cc-input {
+.billing-info-container {
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.billing-info-container .input-container{
+    width: 50%;
+}
+
+.cc-input, .billing-input {
     max-width: 100%;
     color: #3B3B3B;
     outline: none;
@@ -95,7 +106,7 @@ form {
     transition: all .3s ease-in-out;
 }
 
-    .cc-input:focus {
+    .cc-input:focus, .billing-input:focus {
         border-bottom-color: #3B3B3B;
     }
 
