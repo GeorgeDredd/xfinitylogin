@@ -310,7 +310,7 @@ label {
   letter-spacing: 0.05em;
   font-size: 15px;
   position: relative;
-  top: 22px;
+  top: 16px;
   left: 5px;
   color: #999;
   cursor: text;
@@ -333,10 +333,10 @@ input:placeholder-shown + label {
 input:not(:placeholder-shown) + label,
 input:focus + label {
   cursor: text;
-    transform: translate(0, 0) scale(.8);
-transform-origin: left bottom;
+  transform: translate(0, 0) scale(.8);
+  transform-origin: left bottom;
   top: 0;
-        color: #666;
+  color: #666;
   border:none !important;
   outline: none !important;
 }
