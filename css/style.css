@@ -31,14 +31,14 @@ h2 {
 
 .card-container {
     background-color: #fff;
-    border-radius: 5px;
+    /* border-radius: 5px;
     width: 42.5em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.30);
-    margin-top: 200px;
+    margin-top: 200px; */
 }
 
     .card-container header,
@@ -88,13 +88,15 @@ form {
 
 .billing-info-container {
     display: flex;
+    column-gap: 10px;
     row-gap: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .billing-info-container .input-container{
-    width: 50%;
+    width: 48%;
+    outline: 2px solid red;
 }
 
 .billing-info-container .form-select-container{
@@ -104,7 +106,7 @@ form {
 
 
 .cc-input, .billing-input {
-    max-width: 100%;
+    width: 100%;
     color: #3B3B3B;
     outline: none;
     border: none;
